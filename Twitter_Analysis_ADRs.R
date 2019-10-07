@@ -9,10 +9,10 @@ install.packages ("httr")
 install.packages ("httpuv")
 install.packages("rtweet")
 
-consumer_key= 'QjA2bFOSHnFeQ4B4pNKWOkBRA'
-consumer_secret ='Dx4wxueiWbn8TlErF5yYAjFrNViZ3mJZNt4H6DrFSmAg4P7055'
-access_token ='138107497NO02BdvIl9Ym3D6teY4svo8uaQ2v0yfWiDUM5dfA'
-access_token_secret='1n5EIF0CXJOIfJ05T4KRJYTRWhe4eQv8p32FoLJAgpKNU'
+consumer_key= 'Your_Consumer_key'
+consumer_secret ='Your_consumer_secret'
+access_token ='Your_access_token'
+access_token_secret='Your_access_token_secret'
 
 appname <- "Twitter_ADBMS_TS"
 token < create_token(app =appname, consumer_key, consumer_secret,set_renv = TRUE)
